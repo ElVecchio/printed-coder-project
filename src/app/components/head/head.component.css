@@ -49,8 +49,9 @@
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
   font-style: normal;
-  font-size:1em;
+  font-size:0.8em;
   text-align: end;
-  margin-top:-1px;
-  padding-right:14px
+  margin-top:2px;
+  padding-right:14px;
+  font-weight:100;
 }
