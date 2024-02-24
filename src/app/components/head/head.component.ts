@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
 export class HeadComponent {
 
   title:string= "The\nPrinted Coder"
-
+  subTitle:string = 'algumas coisas sobre desenv, IA...'
 }

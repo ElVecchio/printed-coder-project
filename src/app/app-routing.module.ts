@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { FrontPageComponent } from './pages/frontpage/frontpage.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path:'', component:FrontPageComponent}
+ ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
