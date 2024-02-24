@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EnvironmentInjector, OnInit } from '@angular/core';
+import {environment} from "../environments/environment.development";
 
 @Component({
   selector: 'app-root',
@@ -7,8 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit{
 
-  title = 'printed-coder-project';
+  title = environment.projectName;
+
+  constructor(){}
 
   ngOnInit(): void {
+    console.log(environment.projectName);
   }
 }
