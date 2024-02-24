@@ -1,4 +1,4 @@
-# The Printed Coder Project
+# The Printed Coder
 Este projeto em Angular faz parte das tarefas do curso Formação Angular Developer do portal DIO.
 Trata-se de uma landpage blog utilizando os recursos do Angular (17) aprendidos durante as aulas.
 
